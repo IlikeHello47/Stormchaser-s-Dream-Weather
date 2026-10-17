@@ -2,13 +2,13 @@ modLoader="javafml"
 loaderVersion="${loader_version_range}"
 
 license="${mod_license}"
-issueTrackerURL="https://github.com"
+issueTrackerURL="https://github.com/IlikeHello47/Stormchasers-Dream/issues"
 
 [[mods]]
-modId="stormchasers_dream_weather"
+modId="stormchasers_dream"
 version="${mod_version}"
 displayName="${mod_name}"
-displayURL="https://github.com"
+displayURL="https://github.com/IlikeHello47/Stormchasers-Dream"
 logoFile="logo.png"
 authors="IlikeHello47"
 description='''
@@ -16,14 +16,14 @@ A extremely complicated and performant mod that adds weather events like Hurrica
 '''
 
 [[mixins]]
-config="stormchasers_dream_weather.mixins.json"
+config="stormchasers_dream.mixins.json"
 
 # The [[accessTransformers]] block allows you to declare where your AT file is.
 # If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg
 #[[accessTransformers]]
 #file="META-INF/accesstransformer.cfg"
 
-[[dependencies.stormchasers_dream_weather]]
+[[dependencies.stormchasers_dream]]
 modId="neoforge"
 type="required"
 reason="Are you even trying at this point? YOU NEED THE MODLOADER TO LOAD THE MOD!"
@@ -31,7 +31,7 @@ versionRange="[${neo_version},)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.stormchasers_dream_weather]]
+[[dependencies.stormchasers_dream]]
 modId="minecraft"
 type="required"
 reason="It's the game, WHY ARE YOU TRYING TO LOAD THE MOD WITHOUT IT?"
@@ -39,7 +39,7 @@ versionRange="${minecraft_version_range}"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.stormchasers_dream_weather]]
+[[dependencies.stormchasers_dream]]
 modId="sodium"
 type="optional"
 reason="Required for optimal stable performance"
@@ -47,7 +47,7 @@ versionRange="[0.8.13,)"
 ordering="NONE"
 side="CLIENT"
 
-[[dependencies.stormchasers_dream_weather]]
+[[dependencies.stormchasers_dream]]
 modId="ferritecore"
 type="optional"
 reason="Optimizes the memory usage for weak computers."
@@ -55,7 +55,7 @@ versionRange="[7.0.3,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.stormchasers_dream_weather]]
+[[dependencies.stormchasers_dream]]
 modId="iris"
 type="discouraged"
 reason="Many shaders will extremely distort or break the weather effects of this mod."
@@ -63,7 +63,7 @@ versionRange="[1.0.0,)"
 ordering="NONE"
 side="CLIENT"
 
-[[dependencies.stormchasers_dream_weather]]
+[[dependencies.stormchasers_dream]]
 modId="sable"
 type="optional"
 reason="Recommended for Rapier Physics Engine Support."

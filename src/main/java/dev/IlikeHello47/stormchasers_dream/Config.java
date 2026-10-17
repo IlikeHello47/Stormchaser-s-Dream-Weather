@@ -1,4 +1,4 @@
-package dev.IlikeHello47.stormchasers_dream_weather;
+package dev.IlikeHello47.stormchasers_dream;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
